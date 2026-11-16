@@ -1,0 +1,156 @@
+资料站链接总表
+2026-11-17
+================================================
+
+说明
+------------------------------------------------
+一、每条后面标的是大陆网络直连实测状态（2026-11-17 用 curl 探活）：
+    【200】能开
+    【403】站点活着，但挡了脚本抓取，浏览器可开
+    【000】直连不通：网络限制，一般需要加速器
+    没标 = 未测
+二、本表分四类：文库类、存档工具、研究类（NGO/学术）、官方名单类。
+   与本站相关的极右原始站单列一节，只给存档入口，不做导航。
+三、判活法（自己复查用）：
+    curl -I --max-time 10 https://域名/
+    200 正常；403 反爬；301/302 换了地方；410 页面删除；000 连不上。
+
+
+一、马克思主义与左翼文库
+------------------------------------------------
+中文马克思主义文库
+  https://www.marxists.org/chinese/
+  【000】大陆直连不通。全集：马恩列斯毛、托派、第二国际等。
+
+Marxists Internet Archive（英文总站）
+  https://www.marxists.org/
+  【000】同上不通。
+
+无产阶级图书馆
+  https://library.proletarian.me/
+  【000】需加速器。中文左翼电子书库。
+
+Foreign Languages Press
+  https://foreignlanguages.press/
+  【200】可开。外文出版社，毛选、鲁迅等英译本，免费 PDF。
+
+Banned Thought
+  https://bannedthought.net/
+  【000】需加速器。各国被禁的共运刊物汇编。
+
+The Anarchist Library
+  https://theanarchistlibrary.org/
+  【200】可开。无政府主义文本库，左翼与学术研究两用。
+
+The Ted K Archive
+  https://thetedkarchive.com/
+  【200】可开。所谓"禁书库"，左右两边文本都收（含极右研究材料）。
+  提醒：这里是原始文本，不是研究文献，读的时候分清。
+
+
+二、网页存档工具
+------------------------------------------------
+Wayback Machine
+  https://web.archive.org/
+  【000】需加速器。查已死站点唯一可靠入口。
+
+archive.today
+  https://archive.ph/
+  【000】需加速器。整页快照，比 Wayback 保真。
+
+备用：
+  Bing 仍保留网页快照（搜索结果里的"缓存"）
+  Google 缓存已于 2024 年下线，别指望
+
+
+三、极右研究：NGO 与学术（研究入口，不碰原始站）
+------------------------------------------------
+Counter Extremism Project（CEP）
+  https://www.counterextremism.com/
+  【000】需加速器。组织与个人档案、符号库、各国列恐对照。
+  注意：这是倡导型 NGO，分类无法律效力。
+
+Southern Poverty Law Center（SPLC）
+  https://www.splcenter.org/
+  【403】浏览器可开。美国仇恨团体名录与追踪报道。
+
+Anti-Defamation League（ADL）
+  https://www.adl.org/
+  【403】浏览器可开。极端主义词条、事件统计。
+
+Hope Not Hate（英国）
+  https://hopenothate.org.uk/
+  【403】浏览器可开。英国极右年度报告（State of Hate）。
+
+Institute for Strategic Dialogue（ISD）
+  https://www.isdglobal.org/
+  【403】浏览器可开。网络极端主义量化研究。
+
+Mapping Militants（斯坦福）
+  https://mappingmilitants.org/
+  【200】可开。组织谱系图谱，核武之师有专档。
+
+Homeland Security Digital Library（HSDL）
+  https://www.hsdl.org/
+  【403】浏览器可开。美国官方与智库反恐文献库。
+
+Bellingcat
+  https://www.bellingcat.com/
+  【000】需加速器。开源情报调查方法，查人查站都用得上。
+
+Spencer Sunshine《Neo-Nazi Terrorism and Countercultural Fascism》
+  https://theanarchistlibrary.org/library/spencer-sunshine-neo-nazi-terrorism-and-countercultural-fascism.a4.pdf
+  可开。围攻文化与核武之师最好的一本研究著作。
+
+
+四、官方名单（法律效力只在这一层）
+------------------------------------------------
+美国国务院 · 外国恐怖组织名单（FTO）
+  https://www.state.gov/foreign-terrorist-organizations/
+
+英国 · 被禁组织名单
+  https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2
+
+澳大利亚 · 列恐文书（联邦立法登记）
+  https://www.legislation.gov.au/
+  核武之师／民族社会主义秩序：F2022L00148
+  "恐怖图"网络：F2025L00762
+
+加拿大 · 列名恐怖实体
+  https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+
+
+五、极右原始站的存档入口（仅供研究，先看风险提示）
+------------------------------------------------
+【风险提示】
+  英、加、澳已把这一支的多个衍生组织列为恐怖组织。
+  在那些司法辖区，持有、传播其宣传材料可能构成犯罪。
+  做研究请优先用第三节、第四节列的二手中文或英文文献，
+  不要下载原始 PDF，也不要转发原始页面。
+
+universalorder.com（梅森一九九七年的原站）
+  存档：https://web.archive.org/web/1998/http://www.universalorder.com/
+  现状：域名已卖给停放商，打开是跳转页。
+
+siegeculture.biz（二〇一七年核武之师给梅森建的站）
+  存档：https://web.archive.org/web/*/siegeculture.biz
+  现状：域名已掉，DNS 解析不到。
+
+siegeculture.com（后来的博客版）
+  存档：https://web.archive.org/web/20180104232208/https://www.siegeculture.com/
+  现状：HTTP 410，页面已删除。
+
+atomwaffendivision.org
+  现状：HTTP 200，但只有千余字节的占位页，原站早已不在。
+
+ironmarch.org（论坛，核武之师的孵化地）
+  现状：302 跳转到垃圾站，域名过期后被回收。
+
+siegeshop.com
+  现状：200，但现在是同名的普通手工网店，跟极右无关。
+  教训：同名域名不等于同一个东西，必须看存档。
+
+================================================
+本表与文库的立场无关，仅为读者提供查证入口。
+引用时请分清：NGO 名单不等于官方名单；域名现状随时会变，
+引用前用上面那条 curl 命令重测一次。
